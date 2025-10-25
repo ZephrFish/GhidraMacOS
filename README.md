@@ -1,6 +1,8 @@
 # Ghidra macOS Application Launcher
 I started using Ghidra recently and the brew install works fine but I wanted a .app to be able to launch from so this repo serves as a basline guide for creating a native macOS application launcher for Ghidra installed via Homebrew.
 
+Ultimately this technique can be used to create a .app file for any program that doesn't have an applications entry, you just need to modify the bundle files to match your app.
+
 ## Overview
 
 Ghidra installed via Homebrew provides `ghidraRun` command-line tool but no macOS `.app` bundle. This means no Spotlight, Launchpad, or Applications folder access.
