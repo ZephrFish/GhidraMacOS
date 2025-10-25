@@ -5,7 +5,16 @@ I started using Ghidra recently and the brew install works fine but I wanted a .
 
 Ghidra installed via Homebrew provides `ghidraRun` command-line tool but no macOS `.app` bundle. This means no Spotlight, Launchpad, or Applications folder access.
 
-This guide creates a proper macOS application launcher with the official Ghidra icon.
+This guide creates a proper macOS application launcher with the official Ghidra icon. When its built and reeady it will be possible to drag into dock like so:
+
+<img width="354" height="50" alt="image" src="https://github.com/user-attachments/assets/0c9ecb07-8307-4c29-a2fd-2fd3fb10d0b3" />
+
+Also equally in Applications:
+
+
+<img width="764" height="436" alt="image" src="https://github.com/user-attachments/assets/2ee77504-ca6f-47d2-b249-7349448e2554" />
+
+
 
 ## Prerequisites
 
